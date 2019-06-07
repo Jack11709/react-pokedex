@@ -61,7 +61,6 @@ class PokeShow extends Component {
   render() {
     const { data, image, species } = this.state
     if (!data) return <div className="load"></div>
-    console.log(species)
     return (
       <div className="show-container">
         <div className="show-header">
